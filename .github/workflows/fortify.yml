@@ -46,7 +46,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v2
         with:
-          java-version: 7
+          java-version: 17.0.6+10
           distribution: 'temurin'
 
       # Prepare source+dependencies for upload. The default example is for a Maven project that uses pom.xml.
