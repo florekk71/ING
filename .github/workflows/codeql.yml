@@ -59,7 +59,7 @@ jobs:
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Clean install dependencies and build
        run: |
-         build.sh
+         mvn clean install
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
