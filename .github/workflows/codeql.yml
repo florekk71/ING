@@ -56,7 +56,7 @@ jobs:
     - name: Setup Java
       uses: actions/setup-java@1
       with:
-      java-version: '17'
+     
     
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
