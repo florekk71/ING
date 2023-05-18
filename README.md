@@ -1,5 +1,5 @@
 # ING
-
+[![CodeQL](https://github.com/florekk71/ING/actions/workflows/codeql.yml/badge.svg)](https://github.com/florekk71/ING/actions/workflows/codeql.yml)
 Endpoint dla zadania z kolejką bankomatów:
 
 
