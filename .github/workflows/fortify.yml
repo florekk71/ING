@@ -47,7 +47,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 17.0.6+10
-          distribution: 'temurin'
+          distribution: 'debian11'
 
       # Prepare source+dependencies for upload. The default example is for a Maven project that uses pom.xml.
       # TODO: Update PACKAGE_OPTS based on the ScanCentral Client documentation for your project's included tech stack(s). Helpful hints:
